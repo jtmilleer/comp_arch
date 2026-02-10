@@ -1,4 +1,4 @@
-module problem3_testbench (ports);
+module problem3_testbench ();
     
     wire [3:0]            x,y; //connects numbers being added from test to the four bit adder
     wire                  cin;  //connects carry in from test to the four bit adder
