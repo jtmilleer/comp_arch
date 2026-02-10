@@ -1,8 +1,8 @@
 
 //outputs: 4 bit registers a and b, wire cin for carry in
-module problem_3_test(output [3:0] a, [3:0] b, cin);
-    reg [3:0] a, b;
-    wire cin;
+module problem3_test(output [3:0] a, output [3:0] b, output cin);
+    //reg [3:0] a, b;
+    //reg cin;
     //reg cin;
     //wire [3:0] sum;
     //wire cout;
