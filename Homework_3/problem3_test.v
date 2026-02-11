@@ -1,6 +1,6 @@
 
 //outputs: 4 bit registers a and b, wire cin for carry in
-module problem3_test(output [3:0] a, output [3:0] b, output cin);
+module problem3_test(output reg [3:0] a, output reg [3:0] b, output reg cin);
     //reg [3:0] a, b;
     //reg cin;
     //reg cin;

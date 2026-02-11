@@ -1,3 +1,4 @@
+
 module problem3_testbench ();
     
     wire [3:0]            x,y;  //connects numbers being added from test to the four bit adder
@@ -12,5 +13,6 @@ module problem3_testbench ();
     
     //out is sum, cout is carry out, x and y are numbers being added, cin is carry in
     fourBitAdder          f(out, cout, x, y, cin); 
+
 
 endmodule
